@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    border: 0;
+    background-color: #33B6DC;
+    border-radius: 8px;
+    flex-flow: row wrap;
+}
+
+.info{
+    width: auto;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    margin: 15px;
+}
+
+.xValues{
+    border-radius: 7px;
+    background-color: steelblue;
+}
+
+.tools{
+    width: auto;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    margin: 15px;
+    align-items: center;
+}
+
+.xValues tr td{
+    padding: 6px;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+.xValues tr td:hover{
+    background-color: #FF6100;
+}
+
+.toolCell{
+    align: center;
+}
+
+#form>table{
+    border-spacing: 20px;
+}
